@@ -1,7 +1,7 @@
 import styles from './Home.module.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer';
-import EventItem from '../../components/Event/EventItem'
+import EventItem from '../../components/Event/EventCard'
 
 function Home() {
   return (

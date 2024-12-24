@@ -1,4 +1,4 @@
-import styles from './Event.module.css'
+import styles from './EventCard.module.css'
 import Image from '../../assets/event.jpg'
 import calendar from '../../assets/calendar.svg'
 import location from '../../assets/location.svg'
@@ -9,7 +9,6 @@ interface Props {
   venu?:string;
   isFree?:boolean;
   ticketPrice?:number;
-
 }
 
 function EventItem(props: Props) {
