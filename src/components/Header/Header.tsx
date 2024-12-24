@@ -1,6 +1,7 @@
 import styles from './Header.module.css'
 import User from '../../assets/user.svg'
 import USJP from '../../assets/USJP.png'
+import Search from '../../assets/search.svg'
 
 function Header() {
   return( 
@@ -16,8 +17,13 @@ function Header() {
           </div>
         </div>
 
-        <div className={styles.navigationContainer}>
-          <p></p>
+        <div className={styles.searchContainer}>
+          <div className={styles.searchBar}>
+            <input type='text' placeholder='Search by Event name..' className={styles.searchInput}/>
+            <button type='submit' className={styles.searchButton}>
+              <img src={Search}className={styles.searchIcon}/>
+            </button>
+          </div>
         </div>
 
         <div className={styles.registerButtonContainer}>
